@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@600&family=Baloo+2:wght@500&family=Concert+One&family=Ibarra+Real+Nova:ital@1&family=Josefin+Sans:ital,wght@1,300&family=Lilita+One&family=Rubik:ital@1&family=Work+Sans:wght@300&display=swap');
+
+
+.bodyy{
+    background: linear-gradient(to right, white, #64379f, #74daef, white);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 80px;
+}
+
+.nav{
+    background-color: white;
+}
+
+.conte{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient();
+    gap: 50px;
+    padding: 50px;
+    padding-top: 100px;
+    max-width: 1000px;
+    border-radius: 2em;
+    border: solid 3px;
+    box-shadow: 5px 5px 5px 5px rgb(39, 38, 38);
+}
+
+.conte__tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 35px;
+}
+
+.conte__input{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#conte__input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 140px;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+
+.btn__login:hover{
+    transform: scale(1.1);
+    color: cyan;
+}
+
+.conte__input--fila{
+    display: flex;
+    padding: 15px;
+    border-radius: 1em;
+    border: 3px solid;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 24px;
+    background-color: transparent;
+}
+
+.conte__input {
+    font-size: 20px;
+}
+
+.conte__parrafo{
+    font-size: 18px;
+}
+
+.conte__parrafo a{
+    color: white;
+    background-color: black;
+    border-radius: 1em;
+    padding: 5px;
+    transition: 1s;
+}
+
+.conte__parrafo a:hover{
+    color: cyan;
+}
+
+::placeholder{
+    color: black;
+}
+
+
